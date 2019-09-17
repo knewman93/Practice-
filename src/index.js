@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './components/container/App';
 import * as serviceWorker from './serviceWorker';
+
+//CSS imports
+// Normalize.css makes browsers render all elements more consistently and in line with modern standards.
+import './css/normalize.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
